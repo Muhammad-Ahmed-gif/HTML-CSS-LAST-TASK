@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('pexels-martynas-linge-2836004-28496657.jpg') no-repeat center center/cover;
+}
+
+.container {
+    height: 500px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #1b1b1b;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #156974;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #814812;
+}

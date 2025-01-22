@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url(pexels-evgeny-tchebotarev-1058775-2187424.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(255, 255, 255, .1);
+    color: white;
+    /* padding: 1em 0; */
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: url(ancient-japan-background-digital-art-style123.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, .1);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+.card img{
+    width: 50%;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card img:hover{
+    animation: fadeInRight 3s ease;
+}
+
+@keyframes fadeInRight{
+    0%{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  section p{
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  section:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  nav a:hover{
+    color: #000000;
+  }
